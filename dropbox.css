@@ -1,0 +1,97 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+header{
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 999;
+}
+
+
+a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 10px;
+  padding left: 1%;
+  color: black
+}
+
+li{
+  list-style: none;
+}
+
+main{
+  overflow: auto;
+  margin-top: 90px;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.left-nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.right-nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 15px;
+}
+
+.inizia{
+background-color: blue;
+color: white;
+}
+
+.jumbodrone .titolo{
+  background-color: rgb(180,208,231);
+  margin-top: 80px;
+}
+
+.jumbodrone{
+  position: relative;
+  height: 740px;
+  background-color: rgb(180,208,231);
+}
+
+h1{
+  font-size: 4.5rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.titolo{
+text-align: left;
+padding-left: 20%;
+padding-top: 5%;
+}
+
+.finalmente{
+  padding-left: 20%;
+  padding-top: 2%;
+}
+
+.prova{
+  padding-top: 1%;
+  padding-left: 19.5%
+}
+.prova-tasto{
+  background-color: blue;
+  color: white;
+}
