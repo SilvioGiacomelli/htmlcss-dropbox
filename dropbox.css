@@ -1,6 +1,7 @@
 *{
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body{
@@ -8,14 +9,12 @@ body{
 }
 
 header{
-  height: 80px;
   width: 100%;
   position: fixed;
   top: 0;
   background-color: white;
   z-index: 999;
 }
-
 
 a{
   text-decoration: none;
@@ -30,7 +29,6 @@ li{
 }
 
 main{
-  overflow: auto;
   margin-top: 90px;
 }
 
@@ -39,6 +37,7 @@ main{
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  height: 80px;
 }
 
 .left-nav ul{
@@ -60,15 +59,22 @@ background-color: blue;
 color: white;
 }
 
-.jumbodrone .titolo{
-  background-color: rgb(180,208,231);
-  margin-top: 80px;
-}
-
 .jumbodrone{
-  position: relative;
   height: 740px;
   background-color: rgb(180,208,231);
+  margin: 0 auto;
+  padding-left: 20%;
+}
+
+.jumbone{
+  display: flex;
+}
+
+.titolo{
+  background-color: rgb(180,208,231);
+  margin-top: 80px;
+  text-align: left;
+  padding-top: 5%;
 }
 
 h1{
@@ -76,22 +82,40 @@ h1{
   font-family: 'Open Sans', sans-serif;
 }
 
-.titolo{
-text-align: left;
-padding-left: 20%;
-padding-top: 5%;
-}
-
 .finalmente{
-  padding-left: 20%;
   padding-top: 2%;
 }
 
 .prova{
-  padding-top: 1%;
-  padding-left: 19.5%
+  padding-top: 10%;
 }
+
 .prova-tasto{
   background-color: blue;
   color: white;
 }
+
+.annulla{
+  padding-top: 10%;
+}
+
+.freccia-giu i{
+  font-size: 4rem;
+  padding-top: 15%;
+}
+
+.testo-jumbo{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+}
+
+.proposta{
+  width:70%;
+  padding-top: 8%;
+}
+
+
+
+
