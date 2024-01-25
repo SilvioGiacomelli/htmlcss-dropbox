@@ -67,15 +67,10 @@ color: white;
 }
 
 .jumbone{
+  height: 100%;
   display: flex;
 }
 
-.titolo{
-  background-color: rgb(180,208,231);
-  margin-top: 80px;
-  text-align: left;
-  padding-top: 5%;
-}
 
 h1{
   font-size: 4.5rem;
@@ -101,21 +96,17 @@ h1{
 
 .freccia-giu i{
   font-size: 4rem;
-  padding-top: 15%;
+  padding-top: 10%;
 }
 
 .testo-jumbo{
-  width: 40%;
+  width: 30%;
   display: flex;
   flex-direction: column;
-  padding-top: 5%;
+  padding-top: 3%;
 }
 
 .proposta{
   width:70%;
   padding-top: 8%;
 }
-
-
-
-
