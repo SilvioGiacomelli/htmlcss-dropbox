@@ -235,6 +235,7 @@ h1{
 
 .scacchiera{
   padding-top: 70px;
+  width: 100vw
 }
 
 .grid{
@@ -242,8 +243,7 @@ h1{
 }
 
 .macro{
-  height: 620px;
-  grid-template-columns: 1fr 1fr 1fr;
+  height: 66vh;
 }
 
 .square{
@@ -255,19 +255,19 @@ h1{
 
 .right{
   background-color: green;
-  height: 620px;
+  height: 100%;
   flex-wrap: wrap;
-  width: 620px
+  width: 33%
 }
 .left{
   background-color: purple;
-  height: 620px;
+  height: 100%;
   flex-wrap: wrap;
-  width: 620px
+  width: 33%
 }
 .center{
   background-color: grey;
-  height: 620px;
+  height: 100%;
   width: 33%;
 }
 
