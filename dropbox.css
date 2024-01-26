@@ -224,7 +224,7 @@ h1{
 
 .titolone h3{
   padding-top: 80px;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .titolone a{
@@ -266,10 +266,120 @@ h1{
   width: 33%
 }
 .center{
-  background-color: grey;
+  background-color: rgb(245,245,245);
   height: 100%;
   width: 33%;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+
+.designit{
+  background-color: #D0E9CD;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1 / 1;
+}
+
+.asu{
+  background-color: #61082B;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1 / 1;
+}
+
+.florida{
+  background-color: #0093CE;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1 / 1;
+}
+
+.topps{
+  background-color: #D5001F;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1 / 1;
+}
+
+.bicycle{
+  background-color: #D5001F;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1 / 1;
+}
+
+.hearst{
+  background-color: #B4D0E7;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1 / 1;
+}
+
+.lonely{
+  background-color: #0D2481;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1 / 1;
+}
+
+.clear{
+  background-color: #FFD830;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1 / 1;
+}
+
+.verdone{
+  justify-content: center;
+  align-items: center;
+  background-color: #A2D39B;
+  height: 85%;
+  width: 85%;
+}
+
+.separator {
+  border: 0;
+  height: 2px; /* O lo spessore desiderato */
+  background-color: #000; /* Sostituisci con il colore della linea desiderato */
+  margin: 10px 0; /* Spazio sopra e sotto la linea */
+  width: 3%;
+}
+
+.des{
+
+}
+
+.logo-white{
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
 }
 
 
+.porta{
+  height:365px;
+  background-color: #B4D0E7;
+  justify-content: center;
+  align-items: center;
+}
 
+.h2-porta{
+  color: #61082B;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  padding-right: 10%;
+}
+
+.inizia-prova {
+  background-color: white;
+  padding: 10px 25px
+}
+
+.inizia-prova a{
+  text-decoration: none;
+  color: black;
+}
+
+footer{
+  background-color: #000;
+  height: 580px;
+}
