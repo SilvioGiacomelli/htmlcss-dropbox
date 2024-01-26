@@ -6,7 +6,7 @@
 
 .container{
   margin: 0 auto;
-  max-width: 1400px;
+  max-width: 1200px;
 }
 
 .container1000{
@@ -247,20 +247,30 @@ h1{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
 .square{
-  width: 310px;
-  height: 310px;
+  width: 50%;
+  height: 50%;
+  aspect-ratio: 1 / 1;
+  border: 1px solid black;
 }
 
-.green{
+.right{
   background-color: green;
   height: 620px;
+  flex-wrap: wrap;
+  width: 620px
 }
-.purple{
+.left{
   background-color: purple;
   height: 620px;
+  flex-wrap: wrap;
+  width: 620px
 }
-.big-grey{
+.center{
   background-color: grey;
   height: 620px;
 }
+
+
+
