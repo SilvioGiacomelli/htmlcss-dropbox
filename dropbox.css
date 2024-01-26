@@ -4,8 +4,26 @@
   box-sizing: border-box;
 }
 
+.container{
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.container1000{
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
 body{
   font-family: 'Open Sans', sans-serif;
+}
+
+img{
+  max-width: 100%;
+}
+
+.d-flex{
+  display: flex;
 }
 
 header{
@@ -16,7 +34,7 @@ header{
   z-index: 999;
 }
 
-a{
+header a{
   text-decoration: none;
   display: inline-block;
   padding: 5px 10px;
@@ -117,13 +135,13 @@ h1{
   position: absolute;
 }
 
-.trova{
+.trova-titolo{
   padding-top: 8%;
-  padding-left: 25%;
 }
-.trova .business h2{
+
+.trova-titolo .business h2{
   letter-spacing: 1.5px;
-  font-size: 2rem;
+  font-size: 2.3rem;
 }
 
 .dot{
@@ -132,24 +150,117 @@ h1{
 
 .fatturazione-totale{
   display: flex;
-  padding-top: 2%;
+  padding-top: 4%;
+  padding-bottom: 30px;
 }
 
 .fatturazione-2{
-  padding-left: 15px;
+  padding-left: 10px;
 }
 
-.tabella{
-  display: flex;
+/* Tabelle */
+
+.tab-t{
+  border-bottom: 2px solid grey;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabelle{
   justify-content: space-between;
-  max-width: 1000px;
-  margin: 0 auto;
 }
 
-.title-table{
-  border: 1px solid grey;
-  padding-right: ;
+.card{
+  border: 1px solid black;
+  width: 30%;
 }
 
+.chiacchiere{
+  padding-top: 80px;
+}
 
+.img-chiacchiere{
+  width: 60%;
+}
 
+.text-b{
+  width: 40%;
+  font-size: 1rem;
+  padding-top: 90px;
+  padding-left: 40px;
+}
+
+#entra{
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+
+#trova{
+  font-weight: 5em;
+  padding-bottom: 10px;
+}
+
+.bordo{
+  padding-top: 10px;
+  border: 1px solid black;
+  padding: 5px;
+  padding-right: 5px;
+  display: inline-block;
+}
+
+.cartine{
+  padding-top: 120px;
+}
+
+.cartine h2{
+  padding-bottom: 15px;
+  font-size: 3rem;
+}
+
+.crd{
+  padding-top: 15px;
+}
+
+.titolone h3{
+  padding-top: 80px;
+  font-size: 5rem;
+}
+
+.titolone a{
+  padding-top: 15px;
+}
+
+/* Scacchiera */
+
+.scacchiera{
+  padding-top: 70px;
+}
+
+.grid{
+  display: grid;
+}
+
+.macro{
+  height: 620px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.square{
+  width: 310px;
+  height: 310px;
+}
+
+.green{
+  background-color: green;
+  height: 620px;
+}
+.purple{
+  background-color: purple;
+  height: 620px;
+}
+.big-grey{
+  background-color: grey;
+  height: 620px;
+}
