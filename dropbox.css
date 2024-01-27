@@ -38,7 +38,6 @@ header a{
   text-decoration: none;
   display: inline-block;
   padding: 5px 10px;
-  padding left: 1%;
   color: black
 }
 
@@ -201,6 +200,16 @@ input[type="radio"]:checked + .custom-radio::after {
 .card{
   border: 1px solid black;
   width: 30%;
+}
+
+.tab-body{
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.tab-body h3{
+  font-size: 1rem;
 }
 
 .chiacchiere{
@@ -386,15 +395,9 @@ input[type="radio"]:checked + .custom-radio::after {
   padding-top: 30px;
 }
 
-.des{
-
-}
-
 .logo-white{
   filter: invert(1);
 }
-
-
 
 .porta{
   height:365px;
@@ -418,6 +421,40 @@ input[type="radio"]:checked + .custom-radio::after {
 .inizia-prova a{
   text-decoration: none;
   color: black;
+}
+
+.domande-frequenti{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.question p{
+  display: none;
+}
+
+.question:hover p,
+.question:hover .fa-chevron-up{
+  display: block;
+}
+
+.question:hover .fa-chevron-down,
+.question .fa-chevron-up{
+  display: none;
+}
+
+.container1000 h3{
+  padding-bottom: 70px;
+  font-size: 1.8rem;
+}
+
+.question{
+  padding: 30px;
+  position: relative;
+}
+
+.question i{
+  position: absolute;
+  right: 10px;
 }
 
 footer{
