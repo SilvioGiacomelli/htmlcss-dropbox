@@ -136,26 +136,53 @@ h1{
 }
 
 .trova-titolo{
-  padding-top: 8%;
-}
-
-.trova-titolo .business h2{
-  letter-spacing: 1.5px;
-  font-size: 2.3rem;
-}
-
-.dot{
-  color: blue;
-}
-
-.fatturazione-totale{
-  display: flex;
   padding-top: 4%;
-  padding-bottom: 30px;
+  padding-bottom: 2%;
 }
 
-.fatturazione-2{
-  padding-left: 10px;
+/* Stile per il label che funge da radio button personalizzato */
+.custom-radio {
+  cursor: pointer;
+  padding-left: 30px; 
+  position: relative; 
+  margin-right: 20px; 
+  display: inline-block; 
+}
+
+.radio-group{
+  padding-bottom: 3%;
+}
+
+/* Crea il cerchio esterno del radio button */
+.custom-radio::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 2px solid blue;
+}
+
+/* Crea il cerchio interno del radio button */
+.custom-radio::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 6px; 
+  transform: translateY(-50%);
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: blue;
+  opacity: 0; 
+}
+
+/* Mostra il cerchio interno quando il radio button è selezionato */
+input[type="radio"]:checked + .custom-radio::after {
+  opacity: 1;
 }
 
 /* Tabelle */
@@ -253,25 +280,34 @@ h1{
   border: 1px solid black;
 }
 
+.square img{
+  width: 50%;
+}
+
 .right{
   background-color: green;
   height: 100%;
   flex-wrap: wrap;
-  width: 33%
+  width: 33%;
+  aspect-ratio: 1 / 1;
 }
+
 .left{
   background-color: purple;
   height: 100%;
   flex-wrap: wrap;
-  width: 33%
+  width: 33%;
+  aspect-ratio: 1 / 1;
 }
+
 .center{
   background-color: rgb(245,245,245);
   height: 100%;
   width: 33%;
-  flex-direction: column;
-  align-items: center;
   overflow: auto;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  aspect-ratio: 1 / 1;
 }
 
 .designit{
@@ -340,10 +376,14 @@ h1{
 
 .separator {
   border: 0;
-  height: 2px; /* O lo spessore desiderato */
-  background-color: #000; /* Sostituisci con il colore della linea desiderato */
-  margin: 10px 0; /* Spazio sopra e sotto la linea */
-  width: 3%;
+  height: 2px; 
+  background-color: #000; 
+  margin: 10px 0; 
+  width: 15%;
+}
+
+.morten{
+  padding-top: 30px;
 }
 
 .des{
@@ -351,8 +391,9 @@ h1{
 }
 
 .logo-white{
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+  filter: invert(1);
 }
+
 
 
 .porta{
@@ -382,4 +423,35 @@ h1{
 footer{
   background-color: #000;
   height: 580px;
+  color: white;
+}
+
+.footer-list{
+  justify-content: space-between;
+  height: 230px;
+}
+
+.li ul h4{
+  font-size: 1.2rem;
+  padding-bottom: 50px;
+  padding-top: 110px;
+}
+
+.li ul li{
+  line-height: 30px;
+  font-size: 1rem;
+} 
+
+.separator-2{
+  border: 0;
+  height: 2px; 
+  background-color: white; 
+  margin: 10px 0; 
+  width: 15%;
+  margin-top: 250px;
+}
+
+.language{
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
