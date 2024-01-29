@@ -170,13 +170,15 @@ h1{
   content: '';
   position: absolute;
   top: 50%;
-  left: 6px; 
+  left: 2px;
   transform: translateY(-50%);
-  width: 11px;
-  height: 11px;
+  width: 20px;
   border-radius: 50%;
-  background-color: blue;
+  background-color: rgb(255, 255, 255);
   opacity: 0; 
+  border: 6px solid blue;
+  box-sizing: border-box;
+  aspect-ratio: 1/1;
 }
 
 /* Mostra il cerchio interno quando il radio button è selezionato */
@@ -210,6 +212,18 @@ input[type="radio"]:checked + .custom-radio::after {
 
 .tab-body h3{
   font-size: 1rem;
+}
+
+.font-awe{
+  flex-direction: column;
+}
+
+.text-awe{
+
+}
+
+.month{
+  color: lightgray;
 }
 
 .chiacchiere{
