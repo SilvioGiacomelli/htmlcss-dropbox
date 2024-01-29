@@ -235,6 +235,16 @@ input[type="radio"]:checked + .custom-radio::after {
   padding-right: 10px;
 }
 
+.font-awe{
+  position: relative;
+  left: 15px;
+} 
+
+.font-awe i{
+  position: absolute;
+  left: -15px;
+}
+
 .card-bottom{
   padding: 30px;
 }
