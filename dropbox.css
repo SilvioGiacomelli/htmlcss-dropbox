@@ -63,6 +63,10 @@ main{
   align-items: center;
 }
 
+.left-nav img{
+  margin-left: 10px;
+}
+
 .right-nav ul{
   display: flex;
   justify-content: center;
@@ -104,6 +108,10 @@ h1{
 
 .prova{
   padding-top: 5%;
+}
+
+.prova a{
+  padding: 5px;
 }
 
 .prova-tasto{
@@ -283,9 +291,10 @@ input[type="radio"]:checked + .custom-radio::after {
           .awesome-bottom i{
             color: #0061FF;
           }
-            #awe-sopra{
-              padding-bottom: 20px;
-            }
+.font-awe li{
+  padding-top: 10px;
+}
+
 .card-text-bottom li{
   padding-top: 2%;
   padding-bottom: 2%;
@@ -315,7 +324,7 @@ input[type="radio"]:checked + .custom-radio::after {
     background-color: #0061FF;
     color: white;
     text-decoration: none;
-    padding: 4px 8px 4px 8px;
+    padding: 8px 20px 8px 20px;
     font-size: small;
   }
 
